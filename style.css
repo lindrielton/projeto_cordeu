@@ -15,6 +15,13 @@ header{
     background-color: black;
     height: 150px; 
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
 
 header h1{
     color: white;
@@ -45,11 +52,31 @@ main p#unico{
     height: 200px;
     width: 200px;
     padding:20px ;
-    background-color: rgba(255, 255, 255, 0.331);
+    background-color: rgba(255, 255, 255, 0.153);
     color: rgba(255, 255, 255, 0.923);
     position: absolute;
     top:40px ;
-    line-height: 30px;
-    border-top-right-radius: 10px ;
+    line-height: 32px;
+    border-top-right-radius: 10px ; 
+}
+*.estrofe{
+   
+    width: 214px;
+    line-height: 2em;
+    padding: 10px;
+    text-align:left;
+    background-attachment: fixed;
+    font-family: 'sriracha';
+    margin-bottom: 10px;
+}
+nav#imagen{
+    background-image: url(pacote-d012/imagens/background002.jpg);
+    background-size: 100% 100%;
+    height: 300px;
+    position: relative;
+}
+
+#conteudo{
+    background-color: aliceblue;
     
 }

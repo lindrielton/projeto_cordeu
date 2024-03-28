@@ -71,6 +71,8 @@ section.imagen{
    background-color: rgba(0, 0, 0, 0.457);
    color: rgb(255, 255, 255);
    box-shadow: inset 5px 5px 10px 0px rgba(0, 0, 0, 0.453);
+   background-size: cover;
+   background-attachment: fixed;
 }
 section.imagen > p{
    background-color: rgba(0, 0, 0, 0.319);
@@ -82,12 +84,11 @@ section.imagen > p{
 section#img01{
    background-image: url(../pacote-d012/imagens/background001.jpg);
    background-position: right center;
-   background-size: cover;
+   
 
 }
 section#img02{
    background-image: url(../pacote-d012/imagens/background002.jpg);
-   background-size: cover;
    background-position: right center;
 }
 footer{
